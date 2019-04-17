@@ -11,3 +11,21 @@ This article gives you step by step procedure to connect to SAP HANA DB and do t
 
 This example shows how to fetch product wise Invoice to explore the Market Basket analysis
 
+Market Basket Analysis is one of the key techniques used by large retailers to uncover associations between items. It works by looking for combinations of items that occur together frequently in transactions. To put it another way, it allows retailers to identify relationships between the items that people buy. Market Basket Analysis (MBA) which uses Association Rule Mining on the given transaction data.
+
+An example of Association Rules
+Assume there are 100 customers
+* 10 of them bought milk, 8 bought butter and 6 bought both of them
+*Who bought milk => bought butter
+* support = P(Milk & Butter) = 6/100 = 0.06
+* confidence = support/P(Butter) = 0.06/0.08 = 0.75
+* lift = confidence/P(Milk) = 0.75/0.10 = 7.5
+
+Use cases / Benefits:
+Store layout
+Marketing , promotions
+Website content placement
+Recommended engine
+Cross selling
+
+
