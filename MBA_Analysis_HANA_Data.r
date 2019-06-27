@@ -6,9 +6,9 @@ library(xlsx)
 library("plotrix")
 library("RColorBrewer")
 
-ch<-odbcConnect("HD1",uid="REDDYJ",pwd="password");
+ch<-odbcConnect("HY1",uid="REDDY",pwd="password");
 
-res <-sqlQuery(ch, 'SELECT INVOICE, PRODUCT, ORDERS,SALESVALUE FROM REDDYJ.CBC_MBA')
+res <-sqlQuery(ch, 'SELECT INVOICE, PRODUCT, ORDERS,SALESVALUE FROM SCHEMA.CBC_MBA')
 summary(res)
 
 list(res)
